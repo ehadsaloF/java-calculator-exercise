@@ -93,7 +93,7 @@ public class CalculatorTests {
 
     }
     @Test
-    @DisplayName("divide two large numbers")
+    @DisplayName("divide one large number by another")
     public void testLargeDivision() {
         final Integer div = Calculator.divide(10000000, 200);
 
